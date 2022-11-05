@@ -12,6 +12,8 @@ library(gridExtra)
 
 
 #### Example 1 ####
+rm(list = ls()) 
+
 theta <- seq(.01, 4, .01)
 theta_H <- 2.4
 
@@ -108,6 +110,8 @@ round(c(delta_H_A, delta_H_B, delta_H_C),3)
 
 
 #### Example 2 ####
+rm(list = ls())
+
 tau <- seq(.01, 1, .00001)
 
 x <- 7640       # successes number (M)
